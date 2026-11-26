@@ -1,0 +1,10 @@
+[package]
+name = "private/gametemplate"
+version = "1.0.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+private = true
+
+[dependencies]
+Networker = "leifstout/networker@0.3.1"
+DataService = "leifstout/dataservice@1.0.0"

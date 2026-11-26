@@ -1,0 +1,35 @@
+{
+  "name": "GameTemplate",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Client": {
+        "$path": "src/client"
+      },
+      "ClientModules": {
+        "$path": "src/clientModules"
+      },
+      "Packages": {
+        "$path": "Packages"
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      },
+      "BootServer": {
+        "$path": "src/boot/BootServer.server.luau"
+      },
+      "ServerModules": {
+        "$path": "src/serverModules"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "BootClient": {
+          "$path": "src/boot/BootClient.client.luau"
+        }
+      }
+    }
+  }
+}
